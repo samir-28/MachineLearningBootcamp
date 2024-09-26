@@ -26,7 +26,7 @@ print(f'Calculated coefficients: b0 = {b0}, b1 = {b1}')
 print(f'Equation of the line: Y = {b0} + {b1}X')
 
 # Loss function: Mean Squared Error (MSE)  
-def calculate_loss(x, y, b0, b1):
+""" def calculate_loss(x, y, b0, b1):
     y_pred = regression(x, b0, b1) 
     print(y_pred)# Predictions based on the model
     mse = np.mean((y_pred - y) ** 2)  # Mean Squared Error (MSE)
@@ -43,3 +43,4 @@ print(f'When X = {a}, Y = {predicted_y}')
 # Calculate and print the loss (MSE)
 loss = calculate_loss(x, y, b0, b1)
 print(f'Mean Squared Error (MSE) for the model: {loss}')
+ """
